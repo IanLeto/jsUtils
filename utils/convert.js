@@ -1,0 +1,3 @@
+function ConvertMapToObj(data) {
+    return
+}
