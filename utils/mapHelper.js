@@ -19,6 +19,11 @@ export class MapHelper {
         return String(this.content.get(key))
     }
 
+    GetNumber(key) {
+        return Number(this.content.get(key))
+
+    }
+
 }
 
 export function NewMapHelper(m) {
