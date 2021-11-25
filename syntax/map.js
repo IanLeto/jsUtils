@@ -6,7 +6,6 @@ let m1 = new Map([
 ])
 
 // 遍历
-
 for (let [k, v] of m1) {
     console.log(k, v)
 }
