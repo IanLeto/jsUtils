@@ -1,7 +1,5 @@
 // 书接上回 proto
 // es 6 后可以用语法糖class 来表示构造函数，也就是类
-
-
 class Region {
     // fn + control + enter 自动构造器函数
     get address() {
