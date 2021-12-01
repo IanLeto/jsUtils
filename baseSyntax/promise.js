@@ -41,3 +41,19 @@ function queryRegionPromise(id) {
 
 let res2 = queryRegionPromise(1).then(okCallBack, failCallBack)
 
+// 将promise 用async + await
+// 该函数执行后，返回一个promise
+let hello = async () => {
+    return "hello"
+}
+
+// then 中 接收一个callback
+hello().then((value => {
+    switch (value) {
+        case "hello":
+            console.log("world")
+    }
+}))
+
+
+
