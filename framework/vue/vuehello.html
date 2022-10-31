@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    引入vue-->
+    <script type="text/javascript " src="vue.js"></script>
+    <script src="common/common.js"></script>
+    <title>vue hello</title>
+</head>
+<body>
+<!--我们叫这个div 为vue的容器-->
+<div id="app">
+    <p>{{a }}</p>
+</div>
+</body>
+<script>
+    // 接收一个配置对象
+    // 配置对象:key 是无法更改的
+    // vm vue实例
+    let vm = new Vue({
+        el: "#app",  //元素
+        data: {a: 1}
+    })
+</script>
+</html>
